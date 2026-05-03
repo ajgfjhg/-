@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model weights and large training artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+checkpoints/
+weights/
+runs/
+outputs/
+
+# Dataset and generated results
+Mushroom_dataset/
+test结果/
+test_results/
+
+# Private thesis documents
+*.docx
+
+# Temporary and system files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
